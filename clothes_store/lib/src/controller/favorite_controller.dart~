@@ -1,0 +1,96 @@
+import 'package:clothes_store/core/app_data.dart';
+import 'package:clothes_store/src/model/FAVORITE_MODEL.dart';
+import 'package:clothes_store/src/model/FAVORITE_PAGINATION_MODEL.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+class FavoriteController {
+  String base_URL = "http://192.168.0.104:5000";
+
+  Future<FAVORITE_PAGINATION_MODEL?> fetchFavorites(int page, int limit) async {
+    String apiUrl = '$base_URL/api/favorite'; // Đường link API
+    print("apiUrl: $apiUrl");
+    String? authToken =
+        AppData.token; // Token xác thực của người dùng
+    print("authToken: $authToken");
+
+    if (authToken != null) {
+      try {
+        Uri uri = Uri.parse(apiUrl).replace(queryParameters: {
+          'page': page.toString(),
+          'limit': limit.toString(),
+        });
+
+        var response = await http.get(
+          uri,
+          headers: {
+            'Authorization': 'Bearer $authToken',
+            'Content-Type': 'application/json',
+          },
+        );
+
+        if (response.statusCode == 200) {
+          var data = json.decode(response.body);
+
+          return FAVORITE_PAGINATION_MODEL.fromJson(data);
+        } else {
+          print('Failed to fetch favorites. Status code: ${response.statusCode}');
+          print('Response body: ${response.body}');
+          return null;
+        }
+      } catch (e) {
+        print('Error while fetching favorites: $e');
+        return null;
+      }
+    } else {
+      print('không tìm thấy token');
+      return null;
+    }
+  }
+
+  Future<ReturnMessager> addToFavorites(String sku, String note) async {
+    String apiUrl =
+        '$base_URL/api/favorite/add'; // Đường link API
+    // print("user: ${AppData.userInfo.toString()}");
+    String? authToken =
+        AppData.token; // Token xác thực của người dùng
+
+    if (authToken != null) {
+      Map<String, String> requestBody = {
+        'SKU': sku,
+        'note': note,
+      };
+
+      print("requestBody: $requestBody");
+      try {
+        var response = await http.post(
+          Uri.parse(apiUrl),
+          headers: {
+            'Authorization': 'Bearer $authToken',
+            'Content-Type': 'application/json',
+          },
+          body: json.encode(requestBody),
+        );
+        Map<String, dynamic> responseData = json.decode(response.body);
+
+        ReturnMessager messager = ReturnMessager(
+            messager: responseData['message'], statusCode: response.statusCode);
+        return messager;
+
+      } catch (e) {
+        print('Error while adding to favorites: $e');
+        return ReturnMessager(
+            messager: "Error while adding to favorites", statusCode: 0);
+      }
+    } else {
+      print('không tìm thấy token');
+      return ReturnMessager(messager: "không tìm thấy token", statusCode: 0);
+    }
+  }
+}
+
+class ReturnMessager {
+  final String? messager;
+  final int? statusCode;
+  ReturnMessager({this.messager, this.statusCode});
+}
