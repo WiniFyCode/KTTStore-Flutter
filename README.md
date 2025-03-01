@@ -40,13 +40,31 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 - Thiết kế database
 - Phát triển Back-end
 
-### Wini Fy [@WiniFyCode](https://github.com/WiniFyCode)
+### Trần Đình Thành [@WiniFyCode](https://github.com/WiniFyCode)
 - Thiết kế database
 - Phát triển Back-end
 - Tối ưu UI/UX
 
-## 🤝 Đóng góp
-Mọi đóng góp đều được chào đón. Hãy tạo pull request để đóng góp vào dự án.
+## 🚀 Hướng Dẫn Cài Đặt
+1. Clone repository:
 
-## 📄 License
-Copyright © 2025. All rights reserved.
+```bash
+git clone https://github.com/WiniFyCode/kttstore-android.git
+```
+2. Mở project bằng Android Studio
+3. Sync Gradle và build project
+4. Chạy ứng dụng trên thiết bị hoặc máy ảo
+
+## 📄 Giấy Phép
+Copyright © 2025 KTT Store. All rights reserved.
+
+## 🤝 Đóng Góp
+Mọi đóng góp đều được hoan nghênh! Vui lòng:
+1. Fork project
+2. Tạo branch mới (`git checkout -b feature/AmazingFeature`)
+3. Commit thay đổi (`git commit -m 'Add some AmazingFeature'`)
+4. Push lên branch (`git push origin feature/AmazingFeature`)
+5. Mở Pull Request
+
+## 📞 Liên Hệ & Hỗ Trợ
+- Email: kttstore3cg@gmail.com
