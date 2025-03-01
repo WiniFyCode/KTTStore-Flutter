@@ -45,12 +45,19 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 ![Screenshot 2025-02-14 151416](https://github.com/user-attachments/assets/8aa087f7-a124-4450-b987-ed62d02e49ac)
 
 ### Cart
+![Screenshot 2025-02-14 151930](https://github.com/user-attachments/assets/618d46b1-9d53-4c05-a37d-07e53be15fde)
 
 ### Favorite
+![Screenshot 2025-02-14 150552](https://github.com/user-attachments/assets/b6af88a9-1a49-4551-8e43-e59e4880ad7e)
+
+### Checkout
+![Screenshot 2025-02-14 151950](https://github.com/user-attachments/assets/b33a1640-1859-4d3d-a90a-e826e9b76f93)
 
 ### Order
+![Screenshot 2025-02-14 155100](https://github.com/user-attachments/assets/b0b71936-73d8-4309-abab-a5d5a982f49f)
 
 ### Profile
+![Screenshot 2025-02-14 155243](https://github.com/user-attachments/assets/6f5de9bd-7e1e-4245-a211-a6b0a2ab987a)
 
 ## 👥 Thành viên dự án
 
