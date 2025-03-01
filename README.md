@@ -31,33 +31,33 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 
 ## Giao diện
 ### Login
-![Screenshot 2025-02-14 160013](https://github.com/user-attachments/assets/bf6b7e41-3284-4000-83af-b79816fedfcc)
+<img src="https://github.com/user-attachments/assets/bf6b7e41-3284-4000-83af-b79816fedfcc" height="400">
 
 ### Register
-![Screenshot 2025-02-14 160017](https://github.com/user-attachments/assets/75f1bc37-933d-4cd0-b6f4-f9af86188371)
+<img src="https://github.com/user-attachments/assets/75f1bc37-933d-4cd0-b6f4-f9af86188371" height="400">
 
 ### Forgot Password
-![Screenshot 2025-02-14 155346](https://github.com/user-attachments/assets/79bbe366-f247-437c-9ee6-b71f8f4cabde)
-![Screenshot 2025-02-14 155410](https://github.com/user-attachments/assets/6195da06-3f16-4304-85b7-fc10fca6d4d7)
+<img src="https://github.com/user-attachments/assets/79bbe366-f247-437c-9ee6-b71f8f4cabde" height="400">
+<img src="https://github.com/user-attachments/assets/6195da06-3f16-4304-85b7-fc10fca6d4d7" height="400">
 
 ### Home
-![Screenshot 2025-02-14 151208](https://github.com/user-attachments/assets/44ad69e1-d338-4d8b-b744-e824f244229c)
-![Screenshot 2025-02-14 151416](https://github.com/user-attachments/assets/8aa087f7-a124-4450-b987-ed62d02e49ac)
+<img src="https://github.com/user-attachments/assets/44ad69e1-d338-4d8b-b744-e824f244229c" height="400">
+<img src="https://github.com/user-attachments/assets/8aa087f7-a124-4450-b987-ed62d02e49ac" height="400">
 
 ### Cart
-![Screenshot 2025-02-14 151930](https://github.com/user-attachments/assets/618d46b1-9d53-4c05-a37d-07e53be15fde)
+<img src="https://github.com/user-attachments/assets/618d46b1-9d53-4c05-a37d-07e53be15fde" height="400">
 
 ### Favorite
-![Screenshot 2025-02-14 150552](https://github.com/user-attachments/assets/b6af88a9-1a49-4551-8e43-e59e4880ad7e)
+<img src="https://github.com/user-attachments/assets/b6af88a9-1a49-4551-8e43-e59e4880ad7e" height="400">
 
 ### Checkout
-![Screenshot 2025-02-14 151950](https://github.com/user-attachments/assets/b33a1640-1859-4d3d-a90a-e826e9b76f93)
+<img src="https://github.com/user-attachments/assets/b33a1640-1859-4d3d-a90a-e826e9b76f93" height="400">
 
 ### Order
-![Screenshot 2025-02-14 155100](https://github.com/user-attachments/assets/b0b71936-73d8-4309-abab-a5d5a982f49f)
+<img src="https://github.com/user-attachments/assets/b0b71936-73d8-4309-abab-a5d5a982f49f" height="400">
 
 ### Profile
-![Screenshot 2025-02-14 155243](https://github.com/user-attachments/assets/6f5de9bd-7e1e-4245-a211-a6b0a2ab987a)
+<img src="https://github.com/user-attachments/assets/6f5de9bd-7e1e-4245-a211-a6b0a2ab987a" height="400">
 
 ## 👥 Thành viên dự án
 
