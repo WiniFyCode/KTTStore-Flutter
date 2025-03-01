@@ -29,6 +29,29 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 - Cloudinary cho lưu trữ hình ảnh
 - JWT cho xác thực
 
+## Giao diện
+### Login
+![Screenshot 2025-02-14 160013](https://github.com/user-attachments/assets/bf6b7e41-3284-4000-83af-b79816fedfcc)
+
+### Register
+![Screenshot 2025-02-14 160017](https://github.com/user-attachments/assets/75f1bc37-933d-4cd0-b6f4-f9af86188371)
+
+### Forgot Password
+![Screenshot 2025-02-14 155346](https://github.com/user-attachments/assets/79bbe366-f247-437c-9ee6-b71f8f4cabde)
+![Screenshot 2025-02-14 155410](https://github.com/user-attachments/assets/6195da06-3f16-4304-85b7-fc10fca6d4d7)
+
+### Home
+![Screenshot 2025-02-14 151208](https://github.com/user-attachments/assets/44ad69e1-d338-4d8b-b744-e824f244229c)
+![Screenshot 2025-02-14 151416](https://github.com/user-attachments/assets/8aa087f7-a124-4450-b987-ed62d02e49ac)
+
+### Cart
+
+### Favorite
+
+### Order
+
+### Profile
+
 ## 👥 Thành viên dự án
 
 ### Nguyễn Duy Khôi [@NguyenDuyKhoi98](https://github.com/NguyenDuyKhoi98)
