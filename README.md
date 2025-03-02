@@ -13,7 +13,7 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 - 👤 Quản lý thông tin cá nhân
 
 ## 🛠️ Công nghệ sử dụng
-### Frontend (22.3% Dart)
+### Frontend
 - Flutter 3.27.4
 - Dart 3.6.2
 - Shared Preferences cho lưu trữ local
@@ -22,7 +22,7 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 - Smooth Page Indicator cho hiệu ứng chuyển trang
 - Font Awesome Flutter cho icons
 
-### Backend (74.8% JavaScript)
+### Backend
 - Node.js
 - Express.js
 - MongoDB
@@ -79,7 +79,7 @@ KTTStore là một ứng dụng thương mại điện tử được phát tri�
 1. Clone repository:
 
 ```bash
-git clone https://github.com/WiniFyCode/kttstore-android.git
+git clone https://github.com/WiniFyCode/kttstore-flutter.git
 ```
 2. Mở project bằng Android Studio
 3. Sync Gradle và build project
